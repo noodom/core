@@ -137,7 +137,7 @@ $('.bt_removePlanComposant').off('click').on('click',function(){
 			$('#div_alertPlanHeaderConfigure').showAlert({message: error.message, level: 'danger'});
 		},
 		success: function () {
-			$('#div_alertPlanHeaderConfigure').showAlert({message: '{{Composant supprimée}}', level: 'success'});
+			$('#div_alertPlanHeaderConfigure').showAlert({message: '{{Composant supprimé}}', level: 'success'});
 			tr.remove();
 		}
 	});
